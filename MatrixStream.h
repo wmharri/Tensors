@@ -2,7 +2,7 @@
  * MatrixStream.h
  *
  *  Created on: Feb 9, 2020
- *      Author: Owner
+ *      Author: Michael Harrison
  */
 
 #ifndef MATRIXSTREAM_H_
