@@ -2,7 +2,7 @@
  * MatrixDemo.cpp
  *
  *  Created on: Feb 9, 2020
- *      Author: Owner
+ *      Author: Michael Harrison
  */
 
 #include "Matrix.h"
