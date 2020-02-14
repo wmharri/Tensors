@@ -2,7 +2,7 @@
  * Matrix.h
  *
  *  Created on: Dec 16, 2018
- *      Author: Owner
+ *      Author: Michael Harrison
  */
 
 #ifndef MATRIX_H_
