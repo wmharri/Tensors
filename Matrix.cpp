@@ -3,7 +3,7 @@
 
  *
  *  Created on: Dec 16, 2018
- *      Author: Owner
+ *      Author: Michael Harrison
  */
 
 #include "Matrix.h"
