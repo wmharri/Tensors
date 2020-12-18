@@ -67,15 +67,16 @@ int** Matrix::getMatrix() const
 // overload for the = operator
 Matrix& Matrix::operator=(Matrix other)
 {
-	int row = other.rowSize;
-	int column = other.columnSize;
-	Matrix* assigned = new Matrix(row, column);
-	for(int i = 0; i < row; i++)
+	rowSize = other.rowSize;
+	columnSize = other.columnSize;
+	matrix = new int*[rowSize];
+	for(int i = 0; i < rowSize; i++)
 	{
-		for(int j = 0; i < column; j++)
-			assigned->setEntry(i, j, other.matrix[i][j]);
+		matrix[i] = new int[columnSize];
+		for(int j = 0; j < columnSize; j++)
+			matrix[i][j] = other.matrix[i][j];
 	}
-	return *assigned;
+	return (*this);
 }
 
 // overload for the + operator
